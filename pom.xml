@@ -47,7 +47,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
-				<version>3.5.0</version>
+				<version>3.6.0</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
@@ -74,7 +74,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>3.4.0</version>
+				<version>3.5.0</version>
 				<executions>
 					<execution>
 						<phase>compile</phase>
@@ -139,8 +139,8 @@
 		</repository>
 		<repository>
 			<!-- Shopkeepers -->
-			<id>Lichtspiele</id>
-			<url>https://nexus.lichtspiele.org/repository/releases/</url>
+			<id>Shopkeepers</id>
+			<url>https://repo.projectshard.dev/repository/releases/</url>
 		</repository>
 
 	</repositories>
@@ -149,7 +149,7 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.20.2-R0.1-SNAPSHOT</version>
+			<version>1.21.1-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 			<exclusions>
 				<exclusion>
@@ -266,9 +266,9 @@
 		</dependency>
 		<dependency>
 			<!-- https://github.com/Slimefun/Slimefun4/releases -->
-			<groupId>com.github.Slimefun</groupId>
+			<groupId>com.github.SlimefunGuguProject</groupId>
 			<artifactId>Slimefun4</artifactId>
-			<version>RC-35</version>
+			<version>2025.1</version>
 			<scope>provided</scope>
 		</dependency>
 		<!--<dependency>
@@ -296,14 +296,14 @@
 			<!-- https://www.spigotmc.org/resources/towny-advanced.72694/history -->
 			<groupId>com.github.TownyAdvanced</groupId>
 			<artifactId>Towny</artifactId>
-			<version>0.100.0.0</version>
+			<version>0.101.1.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<!-- https://www.spigotmc.org/resources/shopkeepers.80756/history -->
 			<groupId>com.nisovin.shopkeepers</groupId>
 			<artifactId>ShopkeepersAPI</artifactId>
-			<version>2.18.0</version>
+			<version>2.23.6</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>

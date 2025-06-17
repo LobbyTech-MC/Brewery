@@ -10,7 +10,6 @@ import com.dre.brewery.integration.barrel.BlocklockerBarrel;
 import com.dre.brewery.integration.barrel.GriefPreventionBarrel;
 import com.dre.brewery.integration.barrel.LWCBarrel;
 import com.dre.brewery.integration.barrel.LogBlockBarrel;
-import com.dre.brewery.integration.barrel.TownyBarrel;
 import com.dre.brewery.integration.item.MMOItemsPluginItem;
 import com.dre.brewery.recipe.BCauldronRecipe;
 import com.dre.brewery.recipe.RecipeItem;
@@ -150,6 +149,7 @@ public class IntegrationListener implements Listener {
 			}
 		}
 
+		/*
 		if (BConfig.useTowny) {
 			if (P.p.getServer().getPluginManager().isPluginEnabled("Towny")) {
 				try {
@@ -175,6 +175,7 @@ public class IntegrationListener implements Listener {
 				}
 			}
 		}
+		*/
 
 		if (BConfig.useBlocklocker) {
 			if (P.p.getServer().getPluginManager().isPluginEnabled("BlockLocker")) {
