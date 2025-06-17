@@ -187,7 +187,7 @@ cauldron:
     name: Purée de Pommes de Terre
     ingredients: POTATO_ITEM
 
-  grass:
+  short_grass:
     name: Herbes bouillies
     ingredients: LONG_GRASS
     color: '99ff66' # bright green

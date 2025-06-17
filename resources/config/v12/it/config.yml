@@ -185,7 +185,7 @@ cauldron:
     name: Purè di patate
     ingredients: POTATO_ITEM
 
-  grass:
+  short_grass:
     name: Erbe bollite
     ingredients: LONG_GRASS
     color: '99ff66' # bright green

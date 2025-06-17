@@ -211,9 +211,9 @@ cauldron:
     name: Purée de Pommes de Terre
     ingredients: Potato
 
-  grass:
+  short_grass:
     name: Herbes bouillies
-    ingredients: Grass
+    ingredients: Short_Grass
     color: '99ff66' # bright green
     cookParticles:
       - 'GREEN/2'
@@ -364,7 +364,7 @@ cauldron:
   poi_grass:
     name: Herbes acides bouillies
     ingredients:
-      - Grass
+      - Short_Grass
       - Poisonous_Potato
     color: '99ff66' # bright green
     cookParticles:
@@ -701,7 +701,7 @@ recipes:
   8:
     name: Absinthe pauvre/Absinthe/Absinthe forte
     ingredients:
-      - Grass/15
+      - Short_Grass/15
     cookingtime: 3
     distillruns: 6
     distilltime: 80
@@ -715,7 +715,7 @@ recipes:
   gr_absinthe:
     name: Poor Absinthe/Green Absinthe/Bright Green Absinthe
     ingredients:
-      - Grass/17
+      - Short_Grass/17
       - Poisonous_Potato/2
     cookingtime: 5
     distillruns: 6
@@ -733,7 +733,7 @@ recipes:
     name: Potato soup
     ingredients:
       - Potato/5
-      - Grass/3
+      - Short_Grass/3
     cookingtime: 3
     color: ORANGE
     difficulty: 1

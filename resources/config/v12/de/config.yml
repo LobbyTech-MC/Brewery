@@ -185,7 +185,7 @@ cauldron:
     name: Kartoffelmaische
     ingredients: POTATO_ITEM
 
-  grass:
+  short_grass:
     name: Kräuterbrühe
     ingredients: LONG_GRASS
     color: '99ff66' # helles grün

@@ -185,7 +185,7 @@ cauldron:
     name: Potatomash
     ingredients: POTATO_ITEM
 
-  grass:
+  short_grass:
     name: Boiled herbs
     ingredients: LONG_GRASS
     color: '99ff66' # bright green
